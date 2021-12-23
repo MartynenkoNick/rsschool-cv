@@ -2,7 +2,7 @@
 # Martynenko Mykola CV
 #### Live in Kyiv, Ukraine
 #### Don't drink, don't smoke! Constantly involved with sport - football, running, gym
-#### Study at Rolling Scopes School
+#### ***Study at Rolling Scopes School***
 ---
 ## Work experience:
 | date | position | company |
