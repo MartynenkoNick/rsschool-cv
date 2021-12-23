@@ -17,9 +17,9 @@
 ## Education:
 | date | qualifications | institution |
 |------|----------------|-------------|
-| Sep 2008 - Jul 2009 | Specialist "Organization Management" | "State Academy of Management"/Kiev |
-| Sep 2006 - Jul 2008 | Bachelor "Management of Foreign Economic Activity" | "Interregional Academy of Personnel"/Kiev|
-| Sep 2003 - Jul 2006 | Junior Specialist "Business Management" | "Economic and Legal College"/Kiev |
+| Sep 2008 - Jul 2009 | Specialist "Organization Management" | "State Academy of Management"/Kyiv |
+| Sep 2006 - Jul 2008 | Bachelor "Management of Foreign Economic Activity" | "Interregional Academy of Personnel"/Kyiv|
+| Sep 2003 - Jul 2006 | Junior Specialist "Business Management" | "Economic and Legal College"/Kyiv |
 ---
 ## Additional information:
 * email: marnickmarnick87@gmail.com
