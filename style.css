@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.flex-container{
+	border: 10px solid pink
+}
+
+.flex-container{
+	display: flex;
+	min-height: 90%;
+	flex-direction: column;
+}
+
+.flex-items{
+	padding: 10px;
+	font: bold 16px Verdana san-serif;
+	color: white;
+	text-align: center;
+	text-shadow: 5px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.rss{
+	font-family: cursive;
+}
