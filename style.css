@@ -24,12 +24,7 @@ h1
 
 div
 {
-	background-image: url("./фото600х600.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 700px;
-	background-position-x: right;
-	background-position-y: top;
+width: 700px;
 }
 
 h2
@@ -62,16 +57,40 @@ aside
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	background: rgba(129, 126, 126, 0.5);
 	width: 650px;
-	border-radius: 15%;
+	border-radius: 10%;
 }
 
-span
+a
 {
 	color: rgb(133, 213, 233);
 }
 
-span:hover 
+a:hover 
 {
 	color: rgb(129, 126, 126);
 }
 
+.logo
+{
+	width: 30%;
+}
+
+.foto
+{
+	width: 40%;
+}
+
+.flex-container2
+{
+	display: flex;
+	flex-direction: row;
+	background-color: blue;
+	height: 200px;
+	justify-content: space-between;
+	
+}
+
+nav
+{
+
+}
