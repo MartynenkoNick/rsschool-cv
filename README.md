@@ -1,2 +1,3 @@
 # Task rsschool-cv 
-https://github.com/MartynenkoNick/rsschool-cv
+https://martynenkonick.github.io/rsschool-cv/cv
+https://martynenkonick.github.io/rsschool-cv/
