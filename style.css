@@ -2,21 +2,33 @@
 {	
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-around;
+	min-width: 850px;
+	max-width: 1440px;
+	justify-content: space-between;
+	position: relative;
+	min-height: 100vh;
+	margin: 0 auto;
 	border: 10px solid rgba(133, 213, 233, 0.4);
 	padding: 10px;
-	flex-wrap: wrap;
-	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font: normal normal normal 16px/1.2 arial;
 	background-color: white;
-	background-image: url(./assets/img/meeting-room-kuwait-city.jpg); background-repeat: no-repeat; background-size: cover;
-	align-content: space-between;
-
-
+	background-image: url(./assets/img/meeting-room-kuwait-city.jpg);
+	background-repeat: no-repeat; background-size: cover;
 }
 
-.rss
+html
 {
-	font-family: cursive;
-	letter-spacing: 3px;
+	scroll-behavior: smooth; 
+}
+
+@media (max-width: 768px)
+{
+	main
+{
+	width: 100%;
+}
 }
 
 h1
@@ -27,10 +39,56 @@ h1
 	text-align: center;
 }
 
+.div-skills
+{
+	flex-grow: 1;
+}
+
+.Skills
+{
+	color: white;
+	text-decoration-color: aqua;
+	font-size: 1.5em;
+}
+
 .about-me
 {
-	background-color: blueviolet;
-	flex-grow: 1;
+	background-color: rgba(129, 126, 126, 0.7);
+	padding: 10px;
+	height: 200px;
+	align-self: flex-end;
+	border-radius: 20%;
+	margin-right: 10px;
+	position:sticky;
+}
+
+.rss1
+{
+	font-family: cursive;
+	letter-spacing: 3px;
+	color: red;
+}
+
+.rss2
+{
+	font-family: cursive;
+	letter-spacing: 3px;
+	color: blue;
+}
+
+.rss3
+{
+	font-family: cursive;
+	letter-spacing: 3px;
+	color: green;
+}
+
+.foto
+{
+	width: 200px;
+	height: 200px;
+	border-radius: 30%;
+	border: 10px solid rgba(129, 126, 126, 0.2);
 }
 
 h2
@@ -65,14 +123,20 @@ aside
 	background: rgba(129, 126, 126, 0.5);
 }
 
-a
+nav
 {
-	color: rgb(133, 213, 233);
+	background-color: thistle;
 }
 
-a:hover 
+.addinfo-link
 {
-	color: rgb(129, 126, 126);
+	color: aqua;
+	text-decoration-color: white;
+}
+
+.addinfo-link:hover 
+{
+	color: rgb(248, 246, 123);
 }
 
 .logo
@@ -80,33 +144,9 @@ a:hover
 	width: 30%;
 }
 
-.foto
-{
-	width: 200px;
-	height: 200px;
-	border-radius: 30%;
-}
-
-.flex-container2
-{
-	
-}
-
-nav
-{
-	background-color: thistle;
-}
-
 footer
 {
 	background-color: tomato;
-}
-
-.skills
-{
-	background-color: chartreuse;
-	flex-grow: 10;
-	margin: 0 0 15px;
 }
 
 .html-logo
@@ -119,4 +159,27 @@ footer
 {
 	width: 50px;
 	height: 50px;
+}
+
+.nav-list
+{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+}
+
+.nav-link
+{
+	padding: 0 20px;
+	line-height: 50px;
+	transition: .3s;
+	cursor: pointer;
+	text-decoration-line: none;
+	color: black
+	transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s;
+  font-size: 30px;
+	;
 }

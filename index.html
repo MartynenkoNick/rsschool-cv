@@ -10,21 +10,24 @@
 <body>
 	<main class="flex-container">
 		<h1>Martynenko Mykola CV</h1>
-		<div class="skills"><h2>Skills:</h2>
+		<div class="div-skills"><h2 id="Skills">Skills:</h2>
 		<ul>
-			<li><img class="html-logo" src="./assets/img/HTML5_logo_and_wordmark.svg.png" alt=""></li>
-			<li><img class="css-logo" src="./assets/img/CSS3_logo_and_wordmark.svg.png" alt=""></li>
+			<li><a class="Skills" href="https://en.wikipedia.org/wiki/Microsoft_Office">MS Office</a></li>
+			<li><a class="Skills" href="https://ru.code-basics.com/languages/html">HTML</a></li>
+			<li><a class="Skills" href="https://ru.code-basics.com/languages/css">CSS</a></li>
+			<li><a class="Skills" href="https://flexboxfroggy.com/#ru">CSS-Flexbox</a></li>
+			<li><a class="Skills" href="https://ru.code-basics.com/languages/html">Java Script</a></li>
 		</ul>
 		</div>
 		<div class="about-me">
-			<p>Study at Rolling Scopes School</p>	
+			<p>Study at <span class="rss1">Rolling</span> <span class="rss2">Scopes</span> <span class="rss3">School</span></p>	
 			<p>Live in Kyiv, Ukraine</p>
 			<p>I don't drink, I don't smoke!</p>
 			<p>Constantly involved with sport - football, running, gym</p>
 		</div>
 			<img class="foto" src="./assets/img/фото600х600.jpg" alt="my foto">
 		<header>
-			<h2>Work experience:</h2>
+			<h2 id="Experience">Work experience:</h2>
 		<table>
 			<tr>
 				<th>date</th>
@@ -63,7 +66,7 @@
 			</tr>
 		</table>
 		<header>	
-		<h2>Education:</h2>
+		<h2 id="Education">Education:</h2>
 		</header>
 		<table>
 			<tr>
@@ -89,15 +92,17 @@
 		</table>
 		<aside>
 			<nav class="nav">
-				<ul>
-					<li><a href="">exp</a></li>
-					<li><a href="">edu</a></li>
-					<li><a href="">cod</a></li>
-					<li><a href="">inf</a></li>
+				<ul class="nav-list">
+					<li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+					<li class="nav-item"><a href="#Experience" class="nav-link">Experience</a></li>
+					<li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+					<li class="nav-item"><a href="#CodeExample" class="nav-link">Code example</a></li>
+					<li class="nav-item"><a href="#AddInfo" class="nav-link">AddInfo</a></li>
+					<li class="nav-item"><a href="#top" class="nav-link">move top</a></li>
 				</ul>
 			</nav>	
 			<br/>
-			<h2>Code example css:</h2>
+			<h2 id="CodeExample">Code example css:</h2>
 			<pre>
 				<code>
  .flex-container
@@ -115,15 +120,17 @@
 			</pre>
 		</aside>
 		<footer>
-			<h2>Additional information:</h2>
+			<h2 id="AddInfo">Additional information:</h2>
 				<ul>
-					<li>e-mail:<a> marnickmarnick87@gmail.com</a></li>
-					<li>Telegram:<a> @MartynenkoNick</a></li>
-					<li>GitHub:<a> @MartynenkoNick</a></li>
-					<li>Driving licence:<a> Category "B"</a></li>
+					<li>e-mail:<a class="addinfo-link"> marnickmarnick87@gmail.com</a></li>
+					<li>Telegram:<a class="addinfo-link"> @MartynenkoNick</a></li>
+					<li>GitHub:<a class="addinfo-link"> @MartynenkoNick</a></li>
+					<li>Driving licence:<a class="addinfo-link"> Category "B"</a></li>
+					<li>English level:<a class="addinfo-link"> "B1" Intermediate</a></li>
+					<li>Project 2022:<a class="addinfo-link" href="https://martynenkonick.github.io/rsschool-cv/cv"> "CV#1. Markdown & Git"</a></li>
+					<li>Project 2022:<a class="addinfo-link" href="https://github.com/MartynenkoNick/rsschool-cv/tree/rsschool-cv-html"> "CV#3. CV. Cross Check"</a></li>
 				</ul>
 		</footer>
-		<a href="#top">top</a>
 	</main>
 </body>
 </html>
