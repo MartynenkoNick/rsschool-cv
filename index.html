@@ -11,18 +11,18 @@
 	<main class="flex-container">
 		<h1>Martynenko Mykola CV</h1>
 		<div class="div-skills"><h2 id="Skills">Skills:</h2>
-		<ul>
-			<li><a class="Skills" href="https://en.wikipedia.org/wiki/Microsoft_Office">MS Office</a></li>
-			<li><a class="Skills" href="https://ru.code-basics.com/languages/html">HTML</a></li>
-			<li><a class="Skills" href="https://ru.code-basics.com/languages/css">CSS</a></li>
-			<li><a class="Skills" href="https://flexboxfroggy.com/#ru">CSS-Flexbox</a></li>
-			<li><a class="Skills" href="https://ru.code-basics.com/languages/html">Java Script</a></li>
+		<ul class="skills-list">
+			<li><a class="skills" href="https://en.wikipedia.org/wiki/Microsoft_Office">MS Office</a></li>
+			<li><a class="skills" href="https://ru.code-basics.com/languages/html">HTML</a></li>
+			<li><a class="skills" href="https://ru.code-basics.com/languages/css">CSS</a></li>
+			<li><a class="skills" href="https://flexboxfroggy.com/#ru">CSS-Flexbox</a></li>
+			<li><a class="skills" href="https://ru.code-basics.com/languages/html">Java Script</a></li>
 		</ul>
 		</div>
 		<div class="about-me">
 			<p>Study at <span class="rss1">Rolling</span> <span class="rss2">Scopes</span> <span class="rss3">School</span></p>	
 			<p>Live in Kyiv, Ukraine</p>
-			<p>I don't drink, I don't smoke!</p>
+			<p>I don't drink, I don't smoke</p>
 			<p>Constantly involved with sport - football, running, gym</p>
 		</div>
 			<img class="foto" src="./assets/img/фото600х600.jpg" alt="my foto">
@@ -101,35 +101,52 @@
 					<li class="nav-item"><a href="#top" class="nav-link">move top</a></li>
 				</ul>
 			</nav>	
-			<br/>
-			<h2 id="CodeExample">Code example css:</h2>
-			<pre>
-				<code>
- .flex-container
- {	
- 	 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-	 display: flex;
-	 flex-direction: column;
-	 border: 10px solid rgba(133, 213, 233, 0.6);
-	 padding: 10px;
-	 flex-wrap: wrap-reverse;
-	 min-width: 700px;
-	 justify-content: space-between;
- }
-				</code>
-			</pre>
 		</aside>
+		<div class="code">
+			<br>
+			<h2 id="CodeExample">Code example css:</h2>
+			<pre><code>
+  .flex-container
+  {	
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-content: space-around;
+    min-width: 850px;
+    max-width: 1440px;
+    justify-content: space-between;
+    position: relative;
+    min-height: 100vh;
+    margin: 0 auto;
+    border: 10px solid rgba(133, 213, 233, 0.4);
+    padding: 10px;
+    font: normal normal normal 16px/1.2 arial;
+    background-color: white;
+    background-image: url(./assets/img/meeting-room-kuwait-city.jpg);
+    background-repeat: no-repeat; background-size: cover;
+  }			</code></pre>
+		</div>
 		<footer>
-			<h2 id="AddInfo">Additional information:</h2>
-				<ul>
-					<li>e-mail:<a class="addinfo-link"> marnickmarnick87@gmail.com</a></li>
-					<li>Telegram:<a class="addinfo-link"> @MartynenkoNick</a></li>
-					<li>GitHub:<a class="addinfo-link"> @MartynenkoNick</a></li>
-					<li>Driving licence:<a class="addinfo-link"> Category "B"</a></li>
-					<li>English level:<a class="addinfo-link"> "B1" Intermediate</a></li>
-					<li>Project 2022:<a class="addinfo-link" href="https://martynenkonick.github.io/rsschool-cv/cv"> "CV#1. Markdown & Git"</a></li>
-					<li>Project 2022:<a class="addinfo-link" href="https://github.com/MartynenkoNick/rsschool-cv/tree/rsschool-cv-html"> "CV#3. CV. Cross Check"</a></li>
-				</ul>
+			<div class="flex-footer">
+				<div class="add-info">
+					<h2 id="AddInfo">Additional information:</h2>
+						<ul class="add-info-list">
+							<li>e-mail:<a class="addinfo-link"> marnickmarnick87@gmail.com</a></li>
+							<li>Telegram:<a class="addinfo-link"> @MartynenkoNick</a></li>
+							<li>GitHub:<a class="addinfo-link"> @MartynenkoNick</a></li>
+							<li>English level:<a class="addinfo-link"> "B1" Intermediate</a></li>
+							<li>Project 2022:<a class="addinfo-link" href="https://martynenkonick.github.io/rsschool-cv/cv"> "CV#1. Markdown & Git"</a></li>
+							<li>Project 2022:<a class="addinfo-link" href="https://github.com/MartynenkoNick/rsschool-cv/tree/rsschool-cv-html"> "CV#3. CV. Cross Check"</a></li>
+							<li>Driving licence:<a class="addinfo-link"> Category "B"</a></li>
+							<br>
+						</ul>
+				</div>
+				<div class="rss-logo">
+					<a href="https://rs.school/">
+						<img src="https://rs.school/images/rs_school_js.svg" alt="rss-logo">
+					</a>
+				</div>
+			</div>
 		</footer>
 	</main>
 </body>

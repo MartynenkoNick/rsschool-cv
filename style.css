@@ -1,10 +1,12 @@
+
+
 .flex-container
 {	
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-content: space-around;
-	min-width: 850px;
+	min-width: 1440px;
 	max-width: 1440px;
 	justify-content: space-between;
 	position: relative;
@@ -15,7 +17,8 @@
 	font: normal normal normal 16px/1.2 arial;
 	background-color: white;
 	background-image: url(./assets/img/meeting-room-kuwait-city.jpg);
-	background-repeat: no-repeat; background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 html
@@ -33,10 +36,11 @@ html
 
 h1
 {
-	background-color: aqua;
+	background-color: rgba(129, 126, 126, 0.6);
 	height: min-content;
 	flex-basis: 100%;
 	text-align: center;
+	border-radius: 50%;
 }
 
 .div-skills
@@ -44,7 +48,12 @@ h1
 	flex-grow: 1;
 }
 
-.Skills
+.skills-list
+{
+	list-style: square;
+}
+
+.skills
 {
 	color: white;
 	text-decoration-color: aqua;
@@ -59,7 +68,6 @@ h1
 	align-self: flex-end;
 	border-radius: 20%;
 	margin-right: 10px;
-	position:sticky;
 }
 
 .rss1
@@ -94,13 +102,11 @@ h1
 h2
 {
 	margin: 0 0 5px;
-	background-color: violet;
 }
 
 table
 {
 	margin: 0 0 15px;
-	background-color: violet;
 }
 
 th
@@ -112,20 +118,64 @@ th
 
 td
 {
-	border: 2px solid rgba(129, 126, 126, 0.5);
+	border: 2px solid c;
 	border-radius: 10px;
 	background: rgb(133, 213, 233);
 }
 
-aside
-{
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	background: rgba(129, 126, 126, 0.5);
-}
-
 nav
 {
-	background-color: thistle;
+}
+.nav-list
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	
+}
+
+.nav-link
+{
+	padding: 0 20px;
+	line-height: 50px;
+	cursor: pointer;
+	text-decoration-line: none;
+	color: black;
+	font-size: 1.5em;
+	background-color: rgba(255, 255, 255, 0.8);
+	margin: 10px;
+	border-radius: 40%;
+}
+
+.code
+{
+	background-color: rgba(129, 126, 126, 0.5);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	width: max-content;
+	border-radius: 5%;
+}
+
+.flex-footer
+{
+	display: flex;
+	justify-content: space-evenly;
+	max-width: 1440px;
+	min-width: 1440px;
+}
+
+.add-info
+{
+	background-color: rgba(129, 126, 126, 0.5);
+	text-align: center;
+	border-radius: 30%;
+	min-width: 500px;
+	
+}
+
+.add-info-list
+{
+	list-style: none;
 }
 
 .addinfo-link
@@ -139,47 +189,7 @@ nav
 	color: rgb(248, 246, 123);
 }
 
-.logo
+.rss-logo
 {
 	width: 30%;
-}
-
-footer
-{
-	background-color: tomato;
-}
-
-.html-logo
-{
-	width: 50px;
-	height: 50px;
-}
-
-.css-logo
-{
-	width: 50px;
-	height: 50px;
-}
-
-.nav-list
-{
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	list-style: none;
-}
-
-.nav-link
-{
-	padding: 0 20px;
-	line-height: 50px;
-	transition: .3s;
-	cursor: pointer;
-	text-decoration-line: none;
-	color: black
-	transition-property: font-size;
-  transition-duration: 4s;
-  transition-delay: 2s;
-  font-size: 30px;
-	;
 }
