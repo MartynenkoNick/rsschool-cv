@@ -2,19 +2,19 @@
 
 .flex-container
 {	
+	position: relative;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-content: space-around;
+	justify-content: space-between;
 	min-width: 1440px;
 	max-width: 1440px;
-	justify-content: space-between;
-	position: relative;
 	min-height: 100vh;
 	margin: 0 auto;
-	border: 10px solid rgba(133, 213, 233, 0.4);
 	padding: 10px;
 	font: normal normal normal 16px/1.2 arial;
+	border: 10px solid rgba(133, 213, 233, 0.4);
 	background-color: white;
 	background-image: url(./assets/img/meeting-room-kuwait-city.jpg);
 	background-repeat: no-repeat;
@@ -24,14 +24,6 @@
 html
 {
 	scroll-behavior: smooth; 
-}
-
-@media (max-width: 768px)
-{
-	main
-{
-	width: 100%;
-}
 }
 
 h1
@@ -46,6 +38,7 @@ h1
 .div-skills
 {
 	flex-grow: 1;
+	flex-basis: 50%;
 }
 
 .skills-list
@@ -57,7 +50,7 @@ h1
 {
 	color: white;
 	text-decoration-color: aqua;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 .about-me
@@ -104,7 +97,7 @@ h2
 	margin: 0 0 5px;
 }
 
-table
+.table
 {
 	margin: 0 0 15px;
 }
@@ -118,21 +111,18 @@ th
 
 td
 {
-	border: 2px solid c;
+	border: 2px solid rgba(129, 126, 126, 0.5);
 	border-radius: 10px;
-	background: rgb(133, 213, 233);
+	background: aqua;
+	opacity: 0.7;
 }
 
-nav
-{
-}
 .nav-list
 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	list-style: none;
-	
 }
 
 .nav-link
@@ -143,9 +133,10 @@ nav
 	text-decoration-line: none;
 	color: black;
 	font-size: 1.5em;
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.7);
 	margin: 10px;
-	border-radius: 40%;
+	padding: 10px;
+	border-radius: 50%;
 }
 
 .code
@@ -154,6 +145,8 @@ nav
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	width: max-content;
 	border-radius: 5%;
+	padding: 10px;
+	margin-bottom: 10px;
 }
 
 .flex-footer
@@ -168,9 +161,9 @@ nav
 {
 	background-color: rgba(129, 126, 126, 0.5);
 	text-align: center;
-	border-radius: 30%;
+	border-radius: 25%;
 	min-width: 500px;
-	
+	padding: 10px;
 }
 
 .add-info-list
@@ -192,4 +185,8 @@ nav
 .rss-logo
 {
 	width: 30%;
+	opacity: 0.5;
+	background-color: rgba(129, 126, 126, 0.5);
+	border-radius: 25%;
+	padding: 20px;
 }
